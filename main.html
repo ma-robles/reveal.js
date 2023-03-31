@@ -18,16 +18,115 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>
-					<a href="https://revealjs.com" class="">
                         <img src="img/logo_icaycc.png" alt="ICAyCC" class="logo" >
-					</a>
                     <div style="margin:50px;"> Diplomado en Meteorología y clima </div>
-                    <h4> Módulo 5: <em> Programación para la meteorología y el clima </em> </h4>
-                    <h1> Tema </h1>
-                    <p> Miguel Ángel Robles Roldán </p>
+                    <h4 style="text-align: left; padding-left:150px;"> Módulo 5: <em> Programación para la meteorología y el clima </em> </h4>
+                    <h1> Conceptos básicos de programación</h1>
+                     Miguel Ángel Robles Roldán 
                 </section>
-				<section>Slide 1
+
+                <section> 
+                    <h1> ¿Qué es programar? </h1>
                 </section>
+                <section> <h2> Conceptos Básicos: </h2>
+                    <ul>
+                        <li > Programar: dar instrucciones a una computadora </li>
+                        <li class="fragment"> Computadora: sistema ( electrónico) con capacidades de cómputo (cálculo). </li>
+                        <li class="fragment"> Computadora programable: computadora capaz de recibir y ejecutar instrucciones. </li>
+                        <li class="fragment"> Lenguaje de programación: lenguaje con reglas bien definidas que permiten indicar instrucciones a una computadora. </li>
+                        <li class="fragment"> Programa: conjunto de instrucciones en algún lenguaje de programación </li>
+                    </ul>
+
+                </section>
+
+                <section> <h2> Proceso de programación </h2>
+                    <ul>
+                        <li> planeación, captura, traducción, interpretación y ejecución . </li>
+                    </ul>
+                </section>
+
+                <section > <h2> Planeación </h2>
+                    <p>
+                    Planear un programa es importante:
+                    </p>
+                    <p><ul>
+                        <li> Reduce su tiempo de desarrollo,</li>
+                        <li> simplifica su implementación y </li>
+                        <li> facilita su depuración y mejora. </li>
+                        </ul></p>
+
+                    <p>
+Se debe comenzar con un algoritmo que después debe convertirse a pseudocódigo y/o diagrama de flujo.
+                    </p>
+                </section>
+                <section > <h2> Planeación </h2>
+                    <ul>
+                        <li> Algoritmo: Conjunto ordenado de instrucciones con un fin </li>
+                        <li> Diagrama de flujo: Representación gráfica de un algoritmo </li>
+                        <li> Pseudocódigo: Es un intermedio entre algoritmo y un lenguaje de programación formal </li>
+                    </ul>
+                    <img src="img/ex_pseudo.png" alt="pseudocódigo" class="" >
+                    <img src="img/ex_dflujo.png" alt="diagrama de flujo" class="" >
+                </section>
+                <section> <h2> Tipos de instrucciones </h2>
+                    <ul>
+                        <li> Imperativas: son instrucciones de ingreso y salida de datos, así como operaciones (matemáticas, de comparación, de bits, etc) </li>
+                        <li> Iteración: son instrucciónes que permiten la repetición de un bloque de instrucciones </li>
+                        <li> Selección: permiten decidir la ruta del programa a partir de una condición </li>
+                    </ul>
+                </section>
+
+                <section><h2> Pseudocódigo </h2>
+                        <img src="img/cmp_pseudo.png" alt="pseudocódigo" class="" >
+                </section>
+
+                <section><h2> Diagrama de flujo</h2>
+                        <img src="img/cmp_dflujo.png" alt="Diagrama de flujo" class="" >
+                </section>
+                
+                <section><h2> Actividad </h2>
+                    <p> &gt&gt&gt Realizar el algoritmo y Diagrama de Flujo de un programa que realiza la creación de un mapa a partir de datos de salidas de un modelo de manera diaria. </p>
+                    <ul>
+                        <li> Asuma que los datos se obtienen de un servidor (no se encuentran en su computadora) </li>
+                        <li> Incluya una etapa de descarga u obtención de datos </li>
+                        <li> Tenga en cuenta que los datos pueden no estar disponibles </li>
+                    </ul>
+                </section>
+
+
+
+                <section><h2> Captura </h2>
+                    En una compuradora, la captura suele hacerse de manera directa, <br> utilizándose a ella misma para capturar, compilar, ejecutar y almacenar los programas.
+                        <img src="img/capturando.jpg" alt="Capturando" class="" >
+                </section>
+
+                <section> <h2> Tipos de lenguaje de programación </h2>
+                    <ul>
+                        <li> Por forma de ejecución: </li>
+                        <ul>
+                            <li> Interpretado: las instrucciónes interpretan y ejecutan mientras se corre el programa </li>
+                            <li> Compilado: las instrucciones se interpretan (compilan) previo a la ejecución del programa </li>
+                        </ul>
+                        <li> Por nivel de complejidad: </li>
+                        <ul>
+                            <li> Bajo nivel: más cercano al lenguaje máquina </li>
+                            <li> Alto nivel: más cercano al lenguaje humano </li>
+                        </ul>
+                    </ul>
+                </section>
+
+                <section> <h2> Filosofía de Programación</h2><ul>
+                        <li> Metodología en la forma de escribir programas
+                            <ul>
+                                <li> lineal: las instrucciones son escritas de manera lineal. Esto es de manera continua
+</li>
+                                <li> funcional: el código se agrupa en bloques reusables (funciones) </li>
+                                <li> Orientada a objetos: abstrae la programación en objetos, estos contienen funciones y variables </li>
+                            </ul>
+                    </ul>
+                </section>
+                
+
 			</div>
 		</div>
 
@@ -43,6 +142,7 @@
                 width: 1920,
                 height: 1080,
 				hash: true,
+                center: false,
 
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
